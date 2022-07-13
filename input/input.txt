@@ -1,0 +1,7 @@
+United Arab Emirates, Dirhams, AED, 4.37
+Australia, Dollars, AUD, 1.76
+Bosnia and Herzegovina, Convertible Marka, BAM, 2.30
+Bulgaria, Leva, BGN, 2.31
+USA, USD, USD, 1.19
+EUR, EUR, EUR, 1.18
+Romania, Leul Romanesc, LEU, 5.851
