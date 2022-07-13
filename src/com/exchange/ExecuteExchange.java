@@ -22,6 +22,7 @@ public class ExecuteExchange {
             " it means that I transform the entered value from source to target!";
 
                System.out.println(message);
+               importingFileIntoSystem("input.txt");
                runExchange(true, false );
 
         } catch (Exception e) {
@@ -32,7 +33,6 @@ public class ExecuteExchange {
     private static void runExchange(boolean continueWithAnotherExchange, boolean inTheDecision) throws Exception{
 
         if(continueWithAnotherExchange && !inTheDecision){
-            importingFileIntoSystem("input.txt");
             ExchangeDTO exchangeDTO = new ExchangeDTO();
             inputValueForExchange(exchangeDTO);
             calculateExchange(exchangeDTO);
